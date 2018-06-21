@@ -148,10 +148,11 @@
 
 /* BEGIN CONTACT BAR */
 .contact-bar{
-    width: 250px;
-    height: 80px;
-    background-color: blueviolet;
+    width: 270px;
+    height: auto;
     margin-top: 10px;
+    margin-right: 250px;
+    margin-bottom: 22px;
     vertical-align: top;
     display: inline-block;
     position: relative;
@@ -170,36 +171,40 @@
 }
 
 .contact-info{
-    width: 200px;
+    width: auto;
+    height:auto;
     display: inline-block;
 }
 
 .contact-info img{
-    width: 150px;
-    height: 80px;
-    background-color: orangered;
-    margin-top: 10px;
-    vertical-align: top;
+    width: 60px;
+    margin-top: 6px;
     display: inline-block;
-    position: relative;
 }
 
-.contact-info h2{
-    width: 150px;
-    height: 80px;
-    background-color: orangered;
-    margin-top: 10px;
+.contact-info ul{
+    width: auto;
+    height: 20px;
     vertical-align: top;
+    list-style:none;
     display: inline-block;
-    position: relative;
+}
+
+.contact-info h3{
+    color: blue;
+    font-size: 22pt;
 }
 
 .contact-info p{
-    width: 150px;
-    height: 80px;
-    background-color: orangered;
-    margin-top: 10px;
-    vertical-align: top;
+    font-size:10pt;
+}
+
+/* BEGIN CLIENTS AND SERVERS MAIN BODY SECTION */
+
+.clients-and-servers{
+    margin-left: 200px;
+    width: 600px;
     display: inline-block;
-    position: relative;
+    vertical-align: top;
+    position:relative;
 }
