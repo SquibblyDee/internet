@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* outline: 1px red solid; */
+    outline: 1px red solid;
     
    }
 
@@ -12,13 +12,13 @@
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(grey,white);
     width: 970px;
-    height: 900px;
+    height: 1000px;
 }
 
 /* BEGIN CONTENT BOX (The whole site) */
 .content{
     width: 970px;
-    height: 900px;
+    height: 1000px;
     z-index: -1;
 }
 /* HEADER ZONE */
@@ -169,12 +169,14 @@
     width: 30px;
     display: inline-block;
     margin-left: 30px;
+    margin-right: 10px
 }
 
 .contact-bar p{
     width: 40px;
     display: inline-block;
     color: blue;
+    font-size:  18pt;
     vertical-align: center;
 }
 
@@ -192,7 +194,7 @@
 
 .contact-info ul{
     width: auto;
-    height: 20px;
+    height: 150px;
     vertical-align: top;
     list-style:none;
     display: inline-block;
@@ -207,16 +209,18 @@
     font-size:10pt;
 }
 
-/* BEGIN CLIENTS AND SERVERS MAIN BODY SECTION */
+/* BEGIN CLIENTS AND SERVERS MAIN BODY/CONTENT SECTION */
 
-.clients-and-servers{
+.large-content-box{
     display: inline-block;
     width: 730px;
     position:absolute;
     left: 220px;
     top:210px;
+    margin-top: 20px;
 }
-.clients-and-servers h2, p{
+
+.clients-and-servers h2{
     margin-top:10px;
 }
 
@@ -224,4 +228,35 @@
     margin-left: 50px;
 }
 
-.server
+.server-client-pic img{
+    width: 350px;
+    margin-left: 200px;
+}
+
+.so-what-happens h2, p{
+    margin-top:10px;
+}
+
+.so-what-happens ol{
+    margin-left: 50px;
+}
+
+.big3-box{
+    margin-top: 20px;
+    width: 700px;
+    outline: 5px solid blue;
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.big3-box img{
+    display: inline-block;
+    width: 150px;
+    margin:20px;
+}
+
+.big3-content{
+    display: inline-block;
+    width:400px;
+    vertical-align: top;
+    margin-top: 20px;
+}
